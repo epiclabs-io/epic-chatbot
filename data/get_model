@@ -1,0 +1,3 @@
+#!/bin/bash
+
+wget -c "ftp://mltraindata:$1@ftpbackup.epiclabs.io:21/model/chatbot_model_n.npz" -O n.npz
